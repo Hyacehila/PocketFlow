@@ -20,7 +20,9 @@ Pocket Flow is a [100-line](https://github.com/The-Pocket/PocketFlow/blob/main/p
 
 - **[Agentic Coding](https://zacharyhuang.substack.com/p/agentic-coding-the-most-fun-way-to)**: Let AI Agents (e.g., Cursor AI) build Agents—10x productivity boost!
 
-To adhere to the commitment of keeping the codebase within 100 lines, Pocketflow retains only the essential structural framework without offering any wrapped functional implementations. Nevertheless, a moderate level of encapsulation can be beneficial for more efficient development, provided that developers understand what they are encapsulating and their intended use. This is an individual’s enhanced version of the Pocketflow-PythonSDK, incorporating elements that I deem useful but could potentially increase the line count, such as wrappers for RAG (potentially referring to a specific technology or framework). This project is a direct fork of the original SDK, with only minimal alterations to the README file to describe the additional features I’ve implemented and the removal of superfluous content.
+To adhere to the commitment of keeping the codebase within 100 lines, Pocketflow retains only the essential structural framework without offering any wrapped functional implementations. Nevertheless, a moderate level of encapsulation can be beneficial for more efficient development, provided that developers understand what they are encapsulating and their intended use. 
+
+This is an individual’s enhanced version of the Pocketflow-PythonSDK, incorporating elements that I deem useful but could potentially increase the line count, such as wrappers for RAG . This project is a direct fork of the original SDK, with only minimal alterations to the README file to describe the additional features I’ve implemented and the removal of superfluous content. Hope it could help you to build your own PocketFlow.
 
 
 ## How does Pocket Flow work?
