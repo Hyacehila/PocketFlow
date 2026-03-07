@@ -80,11 +80,10 @@ def visualize(
     # ============================================================
 
     # Build mapping from object id to list of variable names
-    names_by_obj_id = {
-        id(v): [k]
-        for k, v in namespace.items()
-        if isinstance(k, str) and hasattr(v, "successors")
-    }
+    names_by_obj_id = collections.defaultdict(list)
+    for k, v in namespace.items():
+        if isinstance(k, str) and hasattr(v, "successors"):
+            names_by_obj_id[id(v)].append(k)
 
     warned_multi_names, warned_missing_names = set(), set()
     unnamed_counter_by_class, label_cache = {}, {}

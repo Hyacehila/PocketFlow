@@ -44,5 +44,9 @@ From there, it's easy to implement popular design patterns like ([Multi-](https:
 
 ## What Changed
 
-Nothing Changed for now. I am doing on RAG,Visualization,Code Unit Testing.
+- Added built-in flow visualization API: `Flow.visualize(...)`.
+- Mermaid export now supports nested flows, branch action labels, configurable direction, default-edge labeling, and start-node highlighting.
+- Added automated visualization regression tests in `unittest` style.
+- Added user documentation: [Flow Visualize Guide](docs/utility_function/flow_visualize.md).
+
 
